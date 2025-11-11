@@ -1,0 +1,9 @@
+Query: apple AND iphone
+Results: sample1.txt, queries.txt
+
+Query: update OR ios
+Results: sample1.txt, sample3.txt, sample2.txt, queries.txt
+
+Query: NOT support
+Results: No match
+

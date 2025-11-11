@@ -1,0 +1,3 @@
+apple AND iphone
+update OR ios
+NOT support

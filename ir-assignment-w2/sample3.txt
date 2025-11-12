@@ -1,5 +1,2 @@
-Spotify released a new app version to improve music playback.
-Users report that the app occasionally crashes on iOS devices.
-Customer support can help resolve Spotify account issues.
-The update fixes several bugs and improves playback stability.
-Many users are happy with the new Spotify features.
+The Bad: Potential bias from incomplete data
+“AI is a powerful tool that can easily be misused. In general, AI and learning algorithms extrapolate from the data they are given. If the designers do not provide representative data, the resulting AI systems become biased and unfair. For example, if you train a human detection algorithm and only show the algorithm images of people with blonde hair, that system may fail to recognize a user with brown hair (e.g., brown hair = not a human). In practice, rushed applications of AI have resulted in systems with racial and gender biases. The bad of AI is a technology that does not treat all users the same.”

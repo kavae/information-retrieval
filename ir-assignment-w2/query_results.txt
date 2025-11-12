@@ -1,9 +1,30 @@
-Query: apple AND iphone
-Results: sample1.txt, queries.txt
+Query: benefits and risks of artificial intelligence
+Results: queries.txt
 
-Query: update OR ios
-Results: sample1.txt, sample3.txt, sample2.txt, queries.txt
+Query: is AI good or bad
+Results: sample4.txt, queries.txt, sample2.txt, sample1.txt, sample3.txt
 
-Query: NOT support
-Results: No match
+Query: impact of AI on society
+Results: sample4.txt, queries.txt
+
+Query: AI ethics and regulation
+Results: queries.txt
+
+Query: AI changing human behavior
+Results: sample4.txt, queries.txt, sample2.txt, sample3.txt
+
+Query: the future of artificial intelligence
+Results: sample3.txt, queries.txt, sample2.txt, sample1.txt, sample4.txt
+
+Query: advantages and disadvantages of AI
+Results: queries.txt
+
+Query: AI in everyday life
+Results: sample4.txt, queries.txt, sample2.txt, sample3.txt
+
+Query: the double-edged sword of AI
+Results: sample3.txt, queries.txt, sample2.txt, sample1.txt, sample4.txt
+
+Query: should AI be regulated
+Results: queries.txt
 

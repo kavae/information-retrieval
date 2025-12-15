@@ -121,9 +121,7 @@ def ndcg_at_k(retrieved, relevant, k):
     return dcg / idcg
 
 # 6. MAIN EVALUATION LOOP
-print("\n" + "="*60)
-print("PERFORMANCE EVALUATION OF HYBRID IR SYSTEM")
-print("="*60)
+print("\nPERFORMANCE EVALUATION OF HYBRID IR SYSTEM")
 
 # Define test queries
 test_queries = [
@@ -138,7 +136,6 @@ K = 10  # Evaluation depth
 results = []
 
 print(f"\nEvaluating on {len(test_queries)} queries at depth k={K}...")
-print("-"*60)
 
 for query in test_queries:
     # Step 1: Retrieve documents using the hybrid model
@@ -175,18 +172,13 @@ results_df = pd.DataFrame(results)
 pd.set_option('display.max_colwidth', 50)
 pd.set_option('display.width', 120)
 
-print("\n" + "="*60)
-print("DETAILED EVALUATION RESULTS")
-print("="*60)
+print("\nDETAILED EVALUATION RESULTS")
 print(results_df.to_string(index=False))
 
 # Calculate overall system performance
 map_score = results_df['AP'].mean()
 mean_ndcg = results_df['nDCG@10'].mean()
 
-print("\n" + "="*60)
-print("SYSTEM SUMMARY METRICS")
-print("="*60)
+print("\nSYSTEM SUMMARY METRICS")
 print(f"Mean Average Precision (MAP): {map_score:.4f}")
 print(f"Average nDCG@10: {mean_ndcg:.4f}")
-print("="*60)
